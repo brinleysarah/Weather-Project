@@ -4,6 +4,10 @@ body {
   font-weight: 100;
   font-style: normal;
 }
+
+a {
+  color: #bb7581;
+}
 .weather-app {
   background-color: white;
   max-width: 600px;
@@ -17,5 +21,24 @@ body {
   border: none;
   border-radius: 6px;
   width: 80%;
-  padding: 20px;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+.search-form-button {
+  background-color: #bb7581;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+footer {
+  border-top: 1px solid #f9f7fe;
+  padding: 30px 0 0;
+  text-align: center;
+  font-size: 13px;
+  color: rgb(127, 124, 124);
+  font-weight: 500;
 }
